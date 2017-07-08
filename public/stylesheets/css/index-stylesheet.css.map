@@ -1,0 +1,1 @@
+{"version":3,"file":"index-stylesheet.css","sources":["index-stylesheet.css"],"sourcesContent":[".clearfloat:after,.clearfloat:before{display:table;content:\"\"}.clearfloat:after{clear:both}"],"names":[],"mappings":"AAAA,AAAA,WAAW,AAAA,MAAM,EAAC,AAAA,WAAW,AAAA,OAAO,CAAA;EAAC,OAAO,EAAC,KAAK;EAAE,OAAO,EAAC,EAAE,GAAG;;AAAD,AAAA,WAAW,AAAA,MAAM,CAAA;EAAC,KAAK,EAAC,IAAI,GAAG"}

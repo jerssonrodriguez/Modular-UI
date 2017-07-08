@@ -1,0 +1,8 @@
+.clearfloat:after, .clearfloat:before {
+  display: table;
+  content: ""; }
+
+.clearfloat:after {
+  clear: both; }
+
+/*# sourceMappingURL=index-stylesheet.css.map */

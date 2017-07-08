@@ -1,0 +1,29 @@
+.btn {
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  color: #233423;
+  background-color: #e5e5e5;
+  text-transform: unset;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: .03px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
+  display: inline-block;
+  border: 0;
+  border-radius: 3px;
+  font-size: .95rem;
+  font-weight: 400;
+  content: '';
+  cursor: pointer;
+  outline: 0;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --warning: #FF9F1C;
+  --info: #0066FF;
+  --alert: #E53D00;
+  --success: #2BA84A; }
+
+/*# sourceMappingURL=module-button-groups.css.map */
