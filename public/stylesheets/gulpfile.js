@@ -1,9 +1,13 @@
+'use strict'
+
+// @requesting packages
 const gulp         = require('gulp');
 const sass         = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const sourcemaps   = require('gulp-sourcemaps');
 const cleancss     = require('gulp-clean-css');
 
+// @gulp task
 gulp.task('sass', () =>
     gulp.src('./scss/**/*.scss')
         .pipe(sass({
@@ -23,6 +27,7 @@ gulp.task('sass', () =>
         .pipe(gulp.dest('./css'))
 ); 
 
+// @gulp task watch
 gulp.task('default', () => {
     gulp.watch('./scss/*.scss', ['sass']);
 });
